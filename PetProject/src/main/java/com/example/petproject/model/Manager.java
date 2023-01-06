@@ -15,7 +15,7 @@ import javax.persistence.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class FieldEmployee {
+public class Manager {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,5 +26,4 @@ public class FieldEmployee {
     String lastName;
 
     Integer age;
-
 }
